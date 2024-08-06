@@ -1,5 +1,6 @@
 <?php
-    require 'conexao.php'
+    session_start();
+    require 'conexao.php';
 ?>
 
 <!doctype html>

@@ -1,7 +1,11 @@
 <?php include('header.php'); ?>
-<?php include('navbar.php') ?>
+
+<?php include('navbar.php'); ?>
 
 <div class="container mt-4">
+
+    <?php include('mensagem.php'); ?>
+
     <div class="row">
         <div class="col-md-12">
             <div class="card">
@@ -43,4 +47,5 @@
         </div>
     </div>
 </div>
+
 <?php include('footer.php'); ?>
